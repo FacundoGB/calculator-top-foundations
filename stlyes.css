@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    max-width: 375px;
+    min-height: 600px;
+    border-radius: 1rem;
+    background-color: #2f3030;
+}
+.display {
+    display: flex;
+    background-color: #5a5c5c;
+    min-height: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    text-align: right;
+    padding: 1rem;
+    flex-direction: auto;
+}
+
+.display .console {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+.display .output {
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: 100%;
+    overflow: auto;
+}
