@@ -20,7 +20,8 @@ body {
     max-width: 375px;
     min-height: 600px;
     border-radius: 1rem;
-    background-color: #2f3030;
+    background-color: #5a5c5c;
+    
 }
 .display {
     display: flex;
@@ -46,11 +47,23 @@ body {
 }
 
 .key-section {
-    background-color: #5a5c5c;
+    background-color: #2f3030;
     padding: 1rem;
     border-radius: 1rem 1rem 0 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
-    box-shadow: 0px -3px 18px #171616;
+
+}
+
+.key-section .key {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    display: auto;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-color: #4f5052;
+    ;
+
 }
