@@ -24,14 +24,13 @@ body {
 }
 .display {
     display: flex;
-    background-color: #5a5c5c;
     min-height: 200px;
     justify-content: flex-end;
     align-items: flex-end;
     color: white;
     text-align: right;
     padding: 1rem;
-    flex-direction: auto;
+    flex: auto;
 }
 
 .display .console {
@@ -41,6 +40,17 @@ body {
 .display .output {
     font-size: 2rem;
     font-weight: 700;
+    width: 100%;
     max-width: 100%;
     overflow: auto;
+}
+
+.key-section {
+    background-color: #5a5c5c;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    box-shadow: 0px -3px 18px #171616;
 }
